@@ -7,5 +7,5 @@ build:
 		-f markdown \
 		--template template.tex \
 		-t latex \
-		-o mydoc.pdf \
+		-o multiply_and_divide_integers.pdf \
 		multiply_and_divide_integers.md

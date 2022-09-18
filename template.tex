@@ -1,89 +1,29 @@
-\documentclass[12pt]{article} % Specifies font size
+\documentclass[12pt]{amsart} % Specifies font size
 
-%----------------PACKAGES-------------------------------------------%%
-\usepackage[margin=0.5in]{geometry} % Sets all four margins to 0.5 inch
-\usepackage[pdftex]{graphicx} % Allows inclusion of image files
+%--PACKAGES--%
+\usepackage[margin=0.5in]{geometry}
+\usepackage[pdftex]{graphicx}
 \usepackage{amsmath} % Access to extra math symbols https://ctan.org/pkg/amsmath?lang=en
 \usepackage{hyperref} % Cross reference hyperlinks https://ctan.org/pkg/hyperref?lang=en 
 
-%-------------------------------------------------------------------%%
+%--COMMANDS--%
 
-%----------------COMMANDS-------------------------------------------%%
-\newcommand\blank{\underline{\hspace{1in}}} % Gives a blank 
-\newcounter{prob} % A new counter for current problem number
-\setcounter{prob}{1} % Start the counter at the value 1
-\newcommand\itm{
-\fbox{\textbf{\theprob}} \refstepcounter{prob}
-} % Calls problem number
-\newcommand{\problem}[1]{\makebox[0.5cm]{\itm}   
-  \begin{minipage}[t]{\textwidth-0.5cm} #1 \end{minipage} 
-} % An environment for a problem statement on or more lines
-\newcommand{\pairofprobs}[2]{
-  \begin{minipage}[t]{0.5\textwidth}\itm #1 \end{minipage} 
-  \begin{minipage}[t]{0.5\textwidth}\itm #2 \end{minipage} 
-} % Fits two problems on a line
-\newcommand{\threeprobs}[3]{
-\begin{minipage}[t]{0.31\textwidth}\itm #1 \end{minipage} \hfill
- \begin{minipage}[t]{0.31\textwidth}\itm #2 \end{minipage} \hfill 
- \begin{minipage}[t]{0.31\textwidth}\itm #3 \end{minipage}
-} % Fits three problems on a line
-\newcounter{choice} % Counter for multiple choice problems 
-\setcounter{choice}{1} % Start the counter at the value 1
-\newcommand\achoice{
-(\alph{choice}) \stepcounter{choice}
-} % Generates letter for multiple choice option
-\newcommand{\answers}[5]{\vspace*{-7mm} 
-  \begin{tabular}{l@{\hspace{1mm}}p{0.9\textwidth}}
-    \achoice & #1 \\ \achoice & #2 \\ \achoice & #3 \\ 
-    \achoice & #4 \\ \achoice & #5 \end{tabular}
-  \setcounter{choice}{1}
-} % Makes multiple-choice options 
-
+% Set default figure placement to htbp (here, top, bottom, ?)
 % https://github.com/Wandmalfarbe/pandoc-latex-template/blob/master/eisvogel.tex#L388
 % https://tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
 % https://tex.stackexchange.com/questions/172782/what-are-the-default-placement-options-for-a-floating-figure-in-latex
-% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-%---------------------------------
-
-% The commands below are for setting up arithmetic 
-% problems with the four basic operations. See examples 
-% in the CONTENT section  
-
-\newcommand{\divi}[2]{
-\ensuremath{#1 \: \begin{array}{|l}
-\hline #2
-\end{array}
-}}
-
-\newcommand{\mult}[2]{
-\ensuremath{\begin{array}{rr} 
- & #1 \\ 
- \times & #2 \\ \hline 
- \end{array}}}
- 
-\newcommand{\addi}[2]{
-  \ensuremath{\begin{array}{rr}
-   &  #1 \\
-    + & #2 \\ \hline
-  \end{array}}}
-
-\newcommand{\subt}[2]{
-  \ensuremath{\begin{array}{rr}
-    & #1 \\ 
-    - & #2 \\ \hline
-  \end{array}}}
 
 %https://tex.stackexchange.com/questions/257418/error-tightlist-converting-md-file-into-pdf-using-pandoc
 \def\tightlist{}
-%-------------------------------------------------------------------%%
 
-%-----------FORMATTING----------------------------------------------%%
+%--FORMATTING--%
 \pagestyle{empty} % Ensures that no page numbers are printed
 \parskip = 0.1 in % Puts a little space between paragraphs 
 \parindent = 0.0 in % Enforces no indentation for paragraphs
+
 % Remove first page number https://tex.stackexchange.com/questions/579285/how-to-remove-page-numbers-with-amsart
 \thispagestyle{empty}
 
@@ -98,38 +38,7 @@
 % https://tex.stackexchange.com/questions/297265/remove-sections-numbering
 \setcounter{secnumdepth}{0}
 
-%-------------------------------------------------------------------%%
-
-%-----------USAGE EXAMPLES------------------------------------------%%
-% To try any of the examples below, uncomment them and paste 
-% them below the \begin{document} command in the CONTENT section. 
-
-% To set up a division problem such as 93 divided by 3:
-% \divi{3}{93}
-
-% To set up a multiplication problem such as 14 times 4:
-% \mult{14}{4}
-
-% To put two problems on the same line: 
-% \pairofprobs{\divi{3}{93}}{\mult{14}{4}} 
-
-% To include a 3cm vertical space between questions 
-% \vspace{3cm} 
-
-%--------------------------------------------------------------------%%
-
-%-----------CONTENT--------------------------------------------------%%
+%--CONTENT--%
 \begin{document}
-
-% \begin{center}
-%   \textsc{$title$} \\
-%   $class$
-% \end{center}
-
-% Name:\underline{\hspace*{2in}} \hfill
-% Date:\underline{\hspace*{2in}}
-
 $body$
-
 \end{document}
-%-------------------------------------------------------------------%%

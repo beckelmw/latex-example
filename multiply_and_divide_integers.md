@@ -17,6 +17,17 @@ I can multiply and divide integers.
 - $(-3)^{2}=$
 - $-3^{2}=$
 
+## Bell work
+
+1. Simplify:  
+    - $3-7$
+    - $5-(-2)$
+	- $-2-4$
+1. Add: $x + y + (-z)$ for $x=-3$,  $y=-4$,  $z=-5$
+1. $-45-(-20)=$
+1. Explain why $(-) + (-) = -$
+1. The temperature at 4 PM was measured at $11^{\circ}$F. By 3 AM that morning the temperature had decreased $18^{\circ}$F. What was the temperature at 3 AM?
+
 ## Practice
 
 1. $-5 \cdot 4=$
