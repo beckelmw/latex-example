@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "build",
+            "type": "node-terminal",
+            "preLaunchTask": "build", // The name of the task defined above
+            // ...
+        }
+    ]   
+}
