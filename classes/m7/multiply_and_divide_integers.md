@@ -38,23 +38,23 @@ I can multiply and divide integers.
 1. $(-8)(-4)=$
 1. $-6 \cdot 5=$
 1. $(-9)(-9)=$
-1. $36 \div (-4)=$
-1. $-27 \div 9=$
-1. $(-24) \div (-6)=$
+1. $36\div(-4)=$
+1. $-27\div9=$
+1. $(-24)\div(-6)=$
 1. $\frac{-30}{5}=$
 1. $\frac{18}{-6}=$
-1. $-32 \div (-8)=$
+1. $-32\div(-8)=$
 1. $\frac{-45}{-9}=$
-1. $(-40) \div 10=$
+1. $(-40)\div 10=$
 
- Evaluate using $x = 03$, $y=5$, $z=-30$
+Evaluate using $x = 03$, $y=5$, $z=-30$
 
 1. $xy=$
 1. $x+y=$
 1. $z \div y=$
 1. $\frac{z}{xy}=$
 
- Evaluate using $a=2$, $b=-3$, $c=-12$
+Evaluate using $a=2$, $b=-3$, $c=-12$
 
 1. $\frac{ab}{c}=$
 1. $b+c=$
@@ -78,7 +78,7 @@ I can multiply and divide integers.
 1. $-(4-6)=$
 1. $(-2)(3)(-1)(-6)=$
 
- Evaluate using $a=4$, $b=-5$, $c=-20$, $d=-10$
+Evaluate using $a=4$, $b=-5$, $c=-20$, $d=-10$
 
 1. $\frac{abd}{c}=$ 
 1. $ac-bd=$
@@ -87,36 +87,36 @@ I can multiply and divide integers.
 
 ### Find each product
 
-1. $6 \cdot-1=$
-1. $-4 \cdot 2=$
-1. $-3-4=$
-1. $-2 \cdot 8=$
-1. $5(-7)=$
-1. $(-7)(9)=$
-1. $8 \cdot (-4)=$
-1. $-3 \cdot (-5)=$
+1. $6 \cdot-1=\boxed{-6}$
+1. $-4 \cdot 2=\boxed{-8}$
+1. $-3-4=\boxed{-7}$
+1. $-2 \cdot 8=\boxed{-16}$
+1. $5(-7)=\boxed{-35}$
+1. $(-7)(9)=\boxed{-63}$
+1. $8 \cdot (-4)=\boxed{-32}$
+1. $-3 \cdot (-5)=\boxed{15}$
 
 ### Evaluate using $x=-2$, $y=-3$,  $z=5$
 
-1. $xy-z=$
-1. $y^{2}-x=$
-1. $xyz=$
+1. $xy-z=\boxed{1}$
+1. $y^{2}-x=\boxed{11}$
+1. $xyz=\boxed{30}$
 
 ### Find each quotient
 
-1. $12 \div -4=$
-1. $-15 \div -3=$
-1. $-20÷5=$
-1. $\frac{-27}{-9}=$
-1. $-45 \div -5=$
-1. $\frac{-18}{9}=$
-1. $\frac{24}{-4}=$
-1. $-32 \div -4=$
+1. $12 \div -4=\boxed{-3}$
+1. $-15 \div -3=\boxed{5}$
+1. $-20÷5=\boxed{-4}$
+1. $\frac{-27}{-9}=\boxed{3}$
+1. $-45 \div -5=\boxed{9}$
+1. $\frac{-18}{9}=\boxed{-2}$
+1. $\frac{24}{-4}=\boxed{-6}$
+1. $-32 \div -4=\boxed{8}$
 
 ### Evaluate using $a=-3$, $b=-4$,  $c=12$
 
-1. $\frac{ab}{c}=$
-1. $\frac{a^{2}}{b^{2}}=$
+1. $\frac{ab}{c}=\boxed{1}$
+1. $\frac{a^{2}}{b^{2}}=\boxed{\frac{9}{16}}$
 1. $\frac{b^{2}}{-2a}$
 
 ### Word problem
@@ -137,5 +137,4 @@ I can multiply and divide integers.
 1. $-8+4+(-2)=$
 1. $-3-5+2=$
 1. $-7-4-(-5)=$
-
 

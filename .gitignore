@@ -1,2 +1,9 @@
 .DS_Store
 *.pdf
+node_modules
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

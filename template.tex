@@ -1,11 +1,11 @@
-\documentclass[12pt]{amsart} % Specifies font size
+\documentclass[12pt]{article} % Specifies font size
 
 %--PACKAGES--%
 \usepackage[margin=0.5in]{geometry}
 \usepackage[pdftex]{graphicx}
 \usepackage{amsmath} % Access to extra math symbols https://ctan.org/pkg/amsmath?lang=en
 \usepackage{hyperref} % Cross reference hyperlinks https://ctan.org/pkg/hyperref?lang=en 
-
+\usepackage{xcolor}
 %--COMMANDS--%
 
 % Set default figure placement to htbp (here, top, bottom, ?)
@@ -34,11 +34,17 @@
 \let\olditem\item
 \renewcommand{\item}{\olditem\vspace{10pt}}
 
+% Make dot product bold %
+% https://tex.stackexchange.com/a/341373
+\let\oldcdot\cdot
+\renewcommand{\cdot}{\boldsymbol\oldcdot}
+
 % Turn of section numbering
 % https://tex.stackexchange.com/questions/297265/remove-sections-numbering
 \setcounter{secnumdepth}{0}
 
 %--CONTENT--%
 \begin{document}
+$title$
 $body$
 \end{document}

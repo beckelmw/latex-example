@@ -1,0 +1,34 @@
+{
+  "name": "pandoc-latex",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckelmw/latex-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beckelmw/latex-example/issues"
+  },
+  "homepage": "https://github.com/beckelmw/latex-example#readme",
+  "dependencies": {
+    "globby": "^13.1.2",
+    "hastscript": "^7.0.2",
+    "js-yaml": "^4.1.0",
+    "remark-frontmatter": "^4.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-stringify": "^10.0.2",
+    "unified": "^10.1.2",
+    "unist-util-find": "^1.0.2",
+    "unist-util-find-after": "^4.0.0",
+    "unist-util-find-all-between": "^2.1.0",
+    "unist-util-visit": "^4.1.1"
+  }
+}
