@@ -1,3 +1,1 @@
-# The header
-
-Some content updated.
+This is now the content
